@@ -1,5 +1,5 @@
-' The VBA of Wall Street
-Sub MultipleYearStockData(): 
+'' The VBA of Wall Street
+Sub MultipleYearStockData():
 
     ' Loop All Worksheets
     For Each ws In Worksheets
@@ -124,10 +124,10 @@ Sub MultipleYearStockData():
 
             Next i
         
-            ws.Range("P2").NumberFormat = "0.00%"
-            ws.Range("P3").NumberFormat = "0.00%"
+            ws.Range("O2").NumberFormat = "0.00%"
+            ws.Range("O3").NumberFormat = "0.00%"
        
-        ws.Columns("I:P").AutoFit
+        ws.Columns("I:O").AutoFit
 
     Next ws
 
